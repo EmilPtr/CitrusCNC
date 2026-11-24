@@ -1,4 +1,4 @@
-# MiniCNC
+# CitrusCNC
 
 A very small CNC mill with a 75 mm x 75 mm work area. It is built mainly for milling PCBs (mostly through-hole boards), but it can also cut other soft materials. The design is inspired by cheap 1610-style CNCs.
 
