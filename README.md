@@ -59,6 +59,19 @@ The 775 shafts are round (not D-shaft). Plan: file a small flat on the shaft for
 - CAM: KiCad -> G-code (e.g. FlatCAM)
 - Sender: UGS / bCNC / CandleLight
 
+## Safety
+Plan: the mill lives on the floor under the 3D printer, inside a zip-up fabric enclosure.
+- Dust is the main hazard (FR1 is paper and phenolic resin, plus copper dust). Wear an FFP2/N95 respirator and safety glasses.
+- Put a vacuum nozzle or dust shoe at the cut if possible.
+- After a job, wait 10-15 minutes before opening the enclosure. Wear the respirator when opening and vacuuming.
+- Clean up with a HEPA or filtered vacuum, then wipe with a damp cloth. No compressed air. Wash hands afterward.
+- The printer is right above the mill, so keep dust off it with a barrier or cover and wipe it down regularly.
+- A fabric enclosure is not airtight, so some dust escapes. Put a mat or tray under the mill.
+- Brushed 775 motors spark. Use flame-retardant fabric, keep it clear of the motor, and don't let dust pile up.
+- Put the E-stop and power switch outside the enclosure. Don't leave the machine running unattended.
+- Put rubber or foam under the mill to cut vibration into the printer.
+- Stop if something smells burnt or sharp (overheated phenolic).
+
 ## V2 ideas
 - Limit switches and homing (`$H`), then soft limits. V1 starts without them and is parked by hand against a hard stop in the same corner each time. Leave mounting spots for the switches on each axis in V1 so V2 doesn't need a redesign. Z at the top is the most useful one to fit first.
 - Hard limits only once switch wiring is proven free of false triggers from the spindle (twisted or shielded wires, capacitor across the motor).
