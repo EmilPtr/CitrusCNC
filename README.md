@@ -59,6 +59,15 @@ The 775 shafts are round (not D-shaft). Plan: file a small flat on the shaft for
 - CAM: KiCad -> G-code (e.g. FlatCAM)
 - Sender: UGS / bCNC / CandleLight
 
+## Materials
+One pick per category, chosen by safest first, then easiest to cut, then cheapest.
+- **Wood: balsa.** Soft, light cuts, cheap. Wear the mask, since all wood dust is an irritant. Avoid exotic woods, which can sensitize.
+- **Metal: lead-free brass sheet (H62 / C270-type), thin (0.5-1 mm).** Brass is the go-to metal. Avoid free-machining C360, which contains about 3% lead. Lead-free brass is gummier to cut than C360, so use shallow passes (0.05-0.1 mm) with a sharp carbide end mill. Check the seller's spec for the alloy.
+- **Plastic: cast acrylic (PMMA) sheet, 2-3 mm.** Cheap, cuts cleanly with a sharp plastic or single-flute bit and a fast feed, and has low hazard when machined. Cast cuts better than extruded. Avoid PVC (corrosive fumes) and acetal/Delrin (formaldehyde if overheated).
+- **PCB: single-sided FR1 copper-clad.** Paper-based, so no fiberglass dust. It is the softest on bits and the cheapest. Avoid FR4 unless a design needs it.
+
+Test each new material on scrap first. Non-PCB materials need end mills, not the V-bit.
+
 ## Safety
 Plan: the mill lives on the floor under the 3D printer, inside a zip-up fabric enclosure.
 - Dust is the main hazard (FR1 is paper and phenolic resin, plus copper dust). Wear an FFP2/N95 respirator and safety glasses.
