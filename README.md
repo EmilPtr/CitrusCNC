@@ -1,5 +1,7 @@
 # CitrusCNC
 
+> **Status: on hold.** The parts order was cancelled before shipping (only the V-bits had already shipped). Reasons: the main concern was FR1 dust in a small apartment, expected use was low (a few boards per project), single-layer boards are limiting, and a 6-DOF robot arm became the preferred winter project. JLC (with express shipping when in a hurry) covers PCB needs for now. All design notes below are kept so the project can be restarted. To restart, revisit the order list, the dust and enclosure plan, and the V2 ideas.
+
 A very small CNC mill with a 75 mm x 75 mm work area. It is built mainly for milling PCBs (mostly through-hole boards), but it can also cut other soft materials. The design is inspired by cheap 1610-style CNCs.
 
 ## Goals
