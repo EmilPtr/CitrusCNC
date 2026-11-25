@@ -58,3 +58,10 @@ The 775 shafts are round (not D-shaft). Plan: file a small flat on the shaft for
 - Firmware: GRBL
 - CAM: KiCad -> G-code (e.g. FlatCAM)
 - Sender: UGS / bCNC / CandleLight
+
+## V2 ideas
+- Limit switches and homing (`$H`), then soft limits. V1 starts without them and is parked by hand against a hard stop in the same corner each time. Leave mounting spots for the switches on each axis in V1 so V2 doesn't need a redesign. Z at the top is the most useful one to fit first.
+- Hard limits only once switch wiring is proven free of false triggers from the spindle (twisted or shielded wires, capacitor across the motor).
+- Brushless 52 mm spindle in place of the 775 (the mount is designed around a 52 mm clamp).
+- Hardened linear shafts if the 304 stainless rods turn out too soft or the Z axis feels loose.
+- Second LM8UU on each Z rod if there is chatter.
